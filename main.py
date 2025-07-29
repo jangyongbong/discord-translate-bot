@@ -34,7 +34,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 EXCLUDED_CHANNEL_IDS = [
     1399390287188725791,  # 번역 제외할 채널 call-bot-music
     1399298062379389043,  # 번역 제외할 채널 voice-chat
-    1399358174842060982  # 번역 제외할 채널 Guild-notice
+    1399358174842060982,  # 번역 제외할 채널 Guild-notice
+    1399384775369949337   # 번역 제외할 채널 free-chat
 ]
 
 
