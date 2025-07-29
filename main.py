@@ -99,7 +99,7 @@ async def on_message(message):
     await bot.process_commands(message)
 
 
-from keep_alive import keep_alive
+# from keep_alive import keep_alive
 
-keep_alive()
+# keep_alive()
 bot.run(TOKEN)
